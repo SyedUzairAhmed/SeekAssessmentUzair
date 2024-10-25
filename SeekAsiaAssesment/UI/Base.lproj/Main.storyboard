@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GkY-XY-RYg">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SplashViewController" customModule="SeekAsiaAssesment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SeekLogo" translatesAutoresizingMaskIntoConstraints="NO" id="KXW-GU-86D">
+                                <rect key="frame" x="122" y="419.66666666666669" width="149" height="38"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KXW-GU-86D" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="g8g-nY-e8Q"/>
+                            <constraint firstItem="KXW-GU-86D" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="zan-sN-al0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rwp-Fc-AXw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="863" y="5"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="qrk-cy-SLN">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="uJi-XR-CGi" customClass="LoginViewController" customModule="SeekAsiaAssesment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xdh-ac-N0t">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SeekIcon" translatesAutoresizingMaskIntoConstraints="NO" id="oA2-Ri-zBB">
+                                <rect key="frame" x="103" y="79" width="186" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oA2-Ri-zBB" secondAttribute="height" multiplier="3:1" id="Zkx-AL-0pX"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lTM-PW-Tex">
+                                <rect key="frame" x="0.0" y="141" width="393" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoM-Eg-sBN">
+                                        <rect key="frame" x="20" y="40" width="88" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lF-Zt-snW">
+                                        <rect key="frame" x="20" y="116" width="108" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2bW-Bb-E0v" customClass="LoginTextField" customModule="SeekAsiaAssesment" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="147" width="353" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="68t-vq-VmV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Enter username"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AW1-3a-J78">
+                                        <rect key="frame" x="20" y="212" width="73.333333333333329" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lON-22-6Sb" customClass="LoginTextField" customModule="SeekAsiaAssesment" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="257" width="353" height="50"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholderText" value="Enter password"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isPasswordField" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHY-bs-hZg">
+                                        <rect key="frame" x="208" y="212" width="165" height="35"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Forgot Password ?">
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="0lF-Zt-snW" firstAttribute="top" secondItem="eoM-Eg-sBN" secondAttribute="bottom" constant="40" id="5U1-J5-jJe"/>
+                                    <constraint firstAttribute="height" constant="350" id="82V-vx-Yn6"/>
+                                    <constraint firstItem="2bW-Bb-E0v" firstAttribute="top" secondItem="0lF-Zt-snW" secondAttribute="bottom" constant="10" id="97J-gA-yio"/>
+                                    <constraint firstItem="lON-22-6Sb" firstAttribute="top" secondItem="AW1-3a-J78" secondAttribute="bottom" constant="10" id="C2x-uJ-qcv"/>
+                                    <constraint firstItem="eoM-Eg-sBN" firstAttribute="leading" secondItem="lTM-PW-Tex" secondAttribute="leading" constant="20" id="F7f-3s-hdS"/>
+                                    <constraint firstItem="VHY-bs-hZg" firstAttribute="bottom" secondItem="AW1-3a-J78" secondAttribute="bottom" id="N0U-U5-pos"/>
+                                    <constraint firstItem="VHY-bs-hZg" firstAttribute="trailing" secondItem="2bW-Bb-E0v" secondAttribute="trailing" id="Qrj-PC-yOX"/>
+                                    <constraint firstItem="lON-22-6Sb" firstAttribute="height" secondItem="2bW-Bb-E0v" secondAttribute="height" id="VZh-we-F7I"/>
+                                    <constraint firstItem="lON-22-6Sb" firstAttribute="leading" secondItem="2bW-Bb-E0v" secondAttribute="leading" id="ZR5-Ce-eGh"/>
+                                    <constraint firstItem="VHY-bs-hZg" firstAttribute="top" secondItem="AW1-3a-J78" secondAttribute="top" id="buZ-DM-TEi"/>
+                                    <constraint firstItem="AW1-3a-J78" firstAttribute="top" secondItem="2bW-Bb-E0v" secondAttribute="bottom" constant="15" id="fHI-fK-97J"/>
+                                    <constraint firstAttribute="trailing" secondItem="2bW-Bb-E0v" secondAttribute="trailing" constant="20" id="jEz-5F-ADZ"/>
+                                    <constraint firstItem="lON-22-6Sb" firstAttribute="trailing" secondItem="2bW-Bb-E0v" secondAttribute="trailing" id="sH3-o9-zBw"/>
+                                    <constraint firstItem="2bW-Bb-E0v" firstAttribute="leading" secondItem="0lF-Zt-snW" secondAttribute="leading" id="wdJ-pC-O1t"/>
+                                    <constraint firstItem="0lF-Zt-snW" firstAttribute="leading" secondItem="eoM-Eg-sBN" secondAttribute="leading" id="xjk-bI-yQx"/>
+                                    <constraint firstItem="AW1-3a-J78" firstAttribute="leading" secondItem="2bW-Bb-E0v" secondAttribute="leading" id="zGt-es-V4z"/>
+                                    <constraint firstItem="eoM-Eg-sBN" firstAttribute="top" secondItem="lTM-PW-Tex" secondAttribute="top" constant="40" id="zQ7-T9-cLL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eHk-v8-Sys">
+                                <rect key="frame" x="0.0" y="570" width="393" height="248"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLd-k8-oWB" userLabel="ViewNoAccount">
+                                        <rect key="frame" x="61" y="165" width="271" height="53"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csb-iL-XLG">
+                                                <rect key="frame" x="0.0" y="9" width="184" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="bUc-uq-khH"/>
+                                                    <constraint firstAttribute="width" constant="184" id="uGn-at-fpu"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiY-Ms-IFi">
+                                                <rect key="frame" x="184" y="9" width="87" height="35"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="aiY-Ms-IFi" firstAttribute="leading" secondItem="csb-iL-XLG" secondAttribute="trailing" id="0G1-Yg-mRT"/>
+                                            <constraint firstAttribute="trailing" secondItem="aiY-Ms-IFi" secondAttribute="trailing" id="1Mc-8a-cBF"/>
+                                            <constraint firstItem="aiY-Ms-IFi" firstAttribute="top" secondItem="csb-iL-XLG" secondAttribute="top" id="3gt-Uw-N6j"/>
+                                            <constraint firstAttribute="bottom" secondItem="csb-iL-XLG" secondAttribute="bottom" constant="9" id="4I3-UL-12L"/>
+                                            <constraint firstItem="csb-iL-XLG" firstAttribute="top" secondItem="qLd-k8-oWB" secondAttribute="top" constant="9" id="67R-oP-bAY"/>
+                                            <constraint firstItem="csb-iL-XLG" firstAttribute="leading" secondItem="qLd-k8-oWB" secondAttribute="leading" id="GTT-sl-0Rd"/>
+                                            <constraint firstItem="aiY-Ms-IFi" firstAttribute="bottom" secondItem="csb-iL-XLG" secondAttribute="bottom" id="wBf-Nq-m5V"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wiy-Qy-qeS" customClass="BaseButton" customModule="SeekAsiaAssesment" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="105" width="353" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="DdA-Tm-aiD"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="Login"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="qLd-k8-oWB" secondAttribute="bottom" constant="30" id="FX3-iA-lJF"/>
+                                    <constraint firstAttribute="height" constant="248" id="Tzt-51-JYz"/>
+                                    <constraint firstItem="Wiy-Qy-qeS" firstAttribute="leading" secondItem="eHk-v8-Sys" secondAttribute="leading" constant="20" id="bU2-rZ-snz"/>
+                                    <constraint firstItem="qLd-k8-oWB" firstAttribute="top" secondItem="Wiy-Qy-qeS" secondAttribute="bottom" constant="10" id="baI-4W-dTR"/>
+                                    <constraint firstItem="qLd-k8-oWB" firstAttribute="centerX" secondItem="eHk-v8-Sys" secondAttribute="centerX" id="thP-Ag-bOy"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wiy-Qy-qeS" secondAttribute="trailing" constant="20" id="xbZ-h0-OZu"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aIb-ac-AtL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lTM-PW-Tex" firstAttribute="top" secondItem="oA2-Ri-zBB" secondAttribute="bottom" id="IqU-Fk-DOm"/>
+                            <constraint firstItem="eHk-v8-Sys" firstAttribute="trailing" secondItem="aIb-ac-AtL" secondAttribute="trailing" id="Nj9-EJ-1zR"/>
+                            <constraint firstItem="eHk-v8-Sys" firstAttribute="leading" secondItem="aIb-ac-AtL" secondAttribute="leading" id="SPi-6h-1ql"/>
+                            <constraint firstItem="aIb-ac-AtL" firstAttribute="bottom" secondItem="eHk-v8-Sys" secondAttribute="bottom" id="Vz9-M8-jfC"/>
+                            <constraint firstItem="lTM-PW-Tex" firstAttribute="leading" secondItem="aIb-ac-AtL" secondAttribute="leading" id="cFh-Ie-JWJ"/>
+                            <constraint firstItem="lTM-PW-Tex" firstAttribute="trailing" secondItem="aIb-ac-AtL" secondAttribute="trailing" id="hyg-Oc-v3Y"/>
+                            <constraint firstItem="oA2-Ri-zBB" firstAttribute="leading" secondItem="aIb-ac-AtL" secondAttribute="leading" constant="103" id="iHN-pu-RE6"/>
+                            <constraint firstItem="aIb-ac-AtL" firstAttribute="trailing" secondItem="oA2-Ri-zBB" secondAttribute="trailing" constant="104" id="k1B-aQ-9d7"/>
+                            <constraint firstItem="oA2-Ri-zBB" firstAttribute="top" secondItem="aIb-ac-AtL" secondAttribute="top" constant="20" id="zXb-5f-rQU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblSignIn" destination="eoM-Eg-sBN" id="KnV-hu-fp6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R6a-Ua-ZDT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742.7480916030534" y="4.9295774647887329"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Uyn-sp-0Je">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="GkY-XY-RYg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sSQ-Gb-NDp">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hXR-dm-9H6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4U-ea-zeC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-131" y="5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SeekIcon" width="296" height="157"/>
+        <image name="SeekLogo" width="149" height="37.666667938232422"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
