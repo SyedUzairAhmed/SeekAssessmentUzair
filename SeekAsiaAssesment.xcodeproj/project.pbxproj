@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1BCB3FC02CCBA8A300CCE4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BCB3FA12CCBA8A100CCE4AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BCB3FA82CCBA8A100CCE4AF;
+			remoteInfo = SeekAsiaAssesment;
+		};
+		1BCB3FCA2CCBA8A300CCE4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BCB3FA12CCBA8A100CCE4AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BCB3FA82CCBA8A100CCE4AF;
+			remoteInfo = SeekAsiaAssesment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAsiaAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1BCB3FD12CCBA8A300CCE4AF /* Exceptions for "SeekAsiaAssesment" folder in "SeekAsiaAssesment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1BCB3FA82CCBA8A100CCE4AF /* SeekAsiaAssesment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1BCB3FAB2CCBA8A100CCE4AF /* SeekAsiaAssesment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1BCB3FD12CCBA8A300CCE4AF /* Exceptions for "SeekAsiaAssesment" folder in "SeekAsiaAssesment" target */,
+			);
+			path = SeekAsiaAssesment;
+			sourceTree = "<group>";
+		};
+		1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SeekAsiaAssesmentTests;
+			sourceTree = "<group>";
+		};
+		1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SeekAsiaAssesmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BCB3FA62CCBA8A100CCE4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCB3FBC2CCBA8A300CCE4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCB3FC62CCBA8A300CCE4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BCB3FA02CCBA8A100CCE4AF = {
+			isa = PBXGroup;
+			children = (
+				1BCB3FAB2CCBA8A100CCE4AF /* SeekAsiaAssesment */,
+				1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
+				1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
+				1BCB3FAA2CCBA8A100CCE4AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BCB3FAA2CCBA8A100CCE4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */,
+				1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */,
+				1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BCB3FA82CCBA8A100CCE4AF /* SeekAsiaAssesment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCB3FD22CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesment" */;
+			buildPhases = (
+				1BCB3FA52CCBA8A100CCE4AF /* Sources */,
+				1BCB3FA62CCBA8A100CCE4AF /* Frameworks */,
+				1BCB3FA72CCBA8A100CCE4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1BCB3FAB2CCBA8A100CCE4AF /* SeekAsiaAssesment */,
+			);
+			name = SeekAsiaAssesment;
+			packageProductDependencies = (
+			);
+			productName = SeekAsiaAssesment;
+			productReference = 1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BCB3FBE2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCB3FD72CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentTests" */;
+			buildPhases = (
+				1BCB3FBB2CCBA8A300CCE4AF /* Sources */,
+				1BCB3FBC2CCBA8A300CCE4AF /* Frameworks */,
+				1BCB3FBD2CCBA8A300CCE4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCB3FC12CCBA8A300CCE4AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
+			);
+			name = SeekAsiaAssesmentTests;
+			packageProductDependencies = (
+			);
+			productName = SeekAsiaAssesmentTests;
+			productReference = 1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BCB3FC82CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCB3FDA2CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentUITests" */;
+			buildPhases = (
+				1BCB3FC52CCBA8A300CCE4AF /* Sources */,
+				1BCB3FC62CCBA8A300CCE4AF /* Frameworks */,
+				1BCB3FC72CCBA8A300CCE4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCB3FCB2CCBA8A300CCE4AF /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
+			);
+			name = SeekAsiaAssesmentUITests;
+			packageProductDependencies = (
+			);
+			productName = SeekAsiaAssesmentUITests;
+			productReference = 1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BCB3FA12CCBA8A100CCE4AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					1BCB3FA82CCBA8A100CCE4AF = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					1BCB3FBE2CCBA8A300CCE4AF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1BCB3FA82CCBA8A100CCE4AF;
+					};
+					1BCB3FC82CCBA8A300CCE4AF = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 1BCB3FA82CCBA8A100CCE4AF;
+					};
+				};
+			};
+			buildConfigurationList = 1BCB3FA42CCBA8A100CCE4AF /* Build configuration list for PBXProject "SeekAsiaAssesment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BCB3FA02CCBA8A100CCE4AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1BCB3FAA2CCBA8A100CCE4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BCB3FA82CCBA8A100CCE4AF /* SeekAsiaAssesment */,
+				1BCB3FBE2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
+				1BCB3FC82CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BCB3FA72CCBA8A100CCE4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCB3FBD2CCBA8A300CCE4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCB3FC72CCBA8A300CCE4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BCB3FA52CCBA8A100CCE4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCB3FBB2CCBA8A300CCE4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCB3FC52CCBA8A300CCE4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BCB3FC12CCBA8A300CCE4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BCB3FA82CCBA8A100CCE4AF /* SeekAsiaAssesment */;
+			targetProxy = 1BCB3FC02CCBA8A300CCE4AF /* PBXContainerItemProxy */;
+		};
+		1BCB3FCB2CCBA8A300CCE4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BCB3FA82CCBA8A100CCE4AF /* SeekAsiaAssesment */;
+			targetProxy = 1BCB3FCA2CCBA8A300CCE4AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BCB3FD32CCBA8A300CCE4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeekAsiaAssesment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BCB3FD42CCBA8A300CCE4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeekAsiaAssesment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BCB3FD52CCBA8A300CCE4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BCB3FD62CCBA8A300CCE4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BCB3FD82CCBA8A300CCE4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekAsiaAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeekAsiaAssesment";
+			};
+			name = Debug;
+		};
+		1BCB3FD92CCBA8A300CCE4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekAsiaAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeekAsiaAssesment";
+			};
+			name = Release;
+		};
+		1BCB3FDB2CCBA8A300CCE4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeekAsiaAssesment;
+			};
+			name = Debug;
+		};
+		1BCB3FDC2CCBA8A300CCE4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeekAsiaAssesment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BCB3FA42CCBA8A100CCE4AF /* Build configuration list for PBXProject "SeekAsiaAssesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCB3FD52CCBA8A300CCE4AF /* Debug */,
+				1BCB3FD62CCBA8A300CCE4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCB3FD22CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCB3FD32CCBA8A300CCE4AF /* Debug */,
+				1BCB3FD42CCBA8A300CCE4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCB3FD72CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCB3FD82CCBA8A300CCE4AF /* Debug */,
+				1BCB3FD92CCBA8A300CCE4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCB3FDA2CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCB3FDB2CCBA8A300CCE4AF /* Debug */,
+				1BCB3FDC2CCBA8A300CCE4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BCB3FA12CCBA8A100CCE4AF /* Project object */;
+}
