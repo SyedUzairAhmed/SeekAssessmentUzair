@@ -12,7 +12,7 @@ import UIKit
 extension UILabel {
     
     func setFontStyle(_ name: Font, _ size: CGFloat){
-        self.font = UIFont(name: AppStyle.defaultFont + "-" + name.rawValue, size: (size))
+        self.font = UIFont(name: AppStyle.defaultFont + "-" + name.rawValue, size: TextScale.size(size))
     }
     
     func setFontColor(_ name:Color){

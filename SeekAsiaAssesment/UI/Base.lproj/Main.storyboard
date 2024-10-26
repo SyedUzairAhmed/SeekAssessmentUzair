@@ -2,11 +2,20 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GkY-XY-RYg">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Splash View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -50,20 +59,20 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lTM-PW-Tex">
                                 <rect key="frame" x="0.0" y="141" width="393" height="350"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoM-Eg-sBN">
-                                        <rect key="frame" x="20" y="40" width="88" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign in" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoM-Eg-sBN">
+                                        <rect key="frame" x="20.000000000000007" y="40" width="92.666666666666686" height="35"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="30"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lF-Zt-snW">
-                                        <rect key="frame" x="20" y="116" width="108" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="20" y="115" width="109" height="20"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2bW-Bb-E0v" customClass="LoginTextField" customModule="SeekAsiaAssesment" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="147" width="353" height="50"/>
+                                        <rect key="frame" x="20" y="145" width="353" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="68t-vq-VmV"/>
                                         </constraints>
@@ -74,13 +83,13 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AW1-3a-J78">
-                                        <rect key="frame" x="20" y="212" width="73.333333333333329" height="35"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="20" y="210" width="75.333333333333329" height="34"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lON-22-6Sb" customClass="LoginTextField" customModule="SeekAsiaAssesment" customModuleProvider="target">
-                                        <rect key="frame" x="20" y="257" width="353" height="50"/>
+                                        <rect key="frame" x="20" y="254" width="353" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                         <userDefinedRuntimeAttributes>
@@ -89,11 +98,15 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHY-bs-hZg">
-                                        <rect key="frame" x="208" y="212" width="165" height="35"/>
+                                        <rect key="frame" x="208" y="210" width="165" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Forgot Password ?">
+                                            <fontDescription key="titleFontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                             <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="btnRegisterPressed:" destination="uJi-XR-CGi" eventType="touchUpInside" id="2qa-vx-pjf"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -121,7 +134,7 @@
                                 <rect key="frame" x="0.0" y="570" width="393" height="248"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qLd-k8-oWB" userLabel="ViewNoAccount">
-                                        <rect key="frame" x="61" y="165" width="271" height="53"/>
+                                        <rect key="frame" x="61.333333333333343" y="165" width="270.33333333333326" height="53"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csb-iL-XLG">
                                                 <rect key="frame" x="0.0" y="9" width="184" height="35"/>
@@ -129,14 +142,19 @@
                                                     <constraint firstAttribute="height" constant="35" id="bUc-uq-khH"/>
                                                     <constraint firstAttribute="width" constant="184" id="uGn-at-fpu"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiY-Ms-IFi">
-                                                <rect key="frame" x="184" y="9" width="87" height="35"/>
+                                                <rect key="frame" x="184" y="9" width="86.333333333333314" height="35"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Register">
+                                                    <fontDescription key="titleFontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btnRegisterPressed:" destination="uJi-XR-CGi" eventType="touchUpInside" id="JwS-Xo-pbp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -160,6 +178,9 @@
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="string" keyPath="btnTitle" value="Login"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="btnLoginPressed:" destination="uJi-XR-CGi" eventType="touchUpInside" id="h1u-kk-Urg"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -188,7 +209,12 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnLogin" destination="Wiy-Qy-qeS" id="uMk-PY-WvM"/>
+                        <outlet property="emailAddressTextField" destination="2bW-Bb-E0v" id="f0i-5K-RBs"/>
+                        <outlet property="lblEmailAddress" destination="0lF-Zt-snW" id="QQe-Wo-pZh"/>
+                        <outlet property="lblPassword" destination="AW1-3a-J78" id="gY8-tc-CzC"/>
                         <outlet property="lblSignIn" destination="eoM-Eg-sBN" id="KnV-hu-fp6"/>
+                        <outlet property="passwordTextField" destination="lON-22-6Sb" id="Q08-SU-neI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R6a-Ua-ZDT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

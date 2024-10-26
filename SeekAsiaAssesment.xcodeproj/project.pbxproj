@@ -3,8 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCB404E2CCCFA4A00CCE4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB401F2CCCFA4A00CCE4AF /* AppDelegate.swift */; };
+		1BCB40502CCCFA4A00CCE4AF /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40372CCCFA4A00CCE4AF /* AppStyle.swift */; };
+		1BCB40512CCCFA4A00CCE4AF /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40392CCCFA4A00CCE4AF /* BaseButton.swift */; };
+		1BCB40522CCCFA4A00CCE4AF /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB403B2CCCFA4A00CCE4AF /* KeychainManager.swift */; };
+		1BCB40532CCCFA4A00CCE4AF /* AppLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB403D2CCCFA4A00CCE4AF /* AppLayoutHelper.swift */; };
+		1BCB40542CCCFA4A00CCE4AF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB403F2CCCFA4A00CCE4AF /* UIColor.swift */; };
+		1BCB40552CCCFA4A00CCE4AF /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40412CCCFA4A00CCE4AF /* UILabel.swift */; };
+		1BCB40562CCCFA4A00CCE4AF /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40432CCCFA4A00CCE4AF /* LoginTextField.swift */; };
+		1BCB40572CCCFA4A00CCE4AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40462CCCFA4A00CCE4AF /* LoginViewController.swift */; };
+		1BCB40582CCCFA4A00CCE4AF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40482CCCFA4A00CCE4AF /* SplashViewController.swift */; };
+		1BCB40592CCCFA4A00CCE4AF /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40222CCCFA4A00CCE4AF /* Roboto-Black.ttf */; };
+		1BCB405A2CCCFA4A00CCE4AF /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40232CCCFA4A00CCE4AF /* Roboto-BlackItalic.ttf */; };
+		1BCB405B2CCCFA4A00CCE4AF /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40242CCCFA4A00CCE4AF /* Roboto-Bold.ttf */; };
+		1BCB405C2CCCFA4A00CCE4AF /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40252CCCFA4A00CCE4AF /* Roboto-BoldItalic.ttf */; };
+		1BCB405D2CCCFA4A00CCE4AF /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40262CCCFA4A00CCE4AF /* Roboto-Italic.ttf */; };
+		1BCB405E2CCCFA4A00CCE4AF /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40272CCCFA4A00CCE4AF /* Roboto-Light.ttf */; };
+		1BCB405F2CCCFA4A00CCE4AF /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40282CCCFA4A00CCE4AF /* Roboto-LightItalic.ttf */; };
+		1BCB40602CCCFA4A00CCE4AF /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40292CCCFA4A00CCE4AF /* Roboto-Medium.ttf */; };
+		1BCB40612CCCFA4A00CCE4AF /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB402A2CCCFA4A00CCE4AF /* Roboto-MediumItalic.ttf */; };
+		1BCB40622CCCFA4A00CCE4AF /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB402B2CCCFA4A00CCE4AF /* Roboto-Regular.ttf */; };
+		1BCB40632CCCFA4A00CCE4AF /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB402C2CCCFA4A00CCE4AF /* Roboto-Thin.ttf */; };
+		1BCB40642CCCFA4A00CCE4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB402F2CCCFA4A00CCE4AF /* Assets.xcassets */; };
+		1BCB40652CCCFA4A00CCE4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40332CCCFA4A00CCE4AF /* LaunchScreen.storyboard */; };
+		1BCB40662CCCFA4A00CCE4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40352CCCFA4A00CCE4AF /* Main.storyboard */; };
+		1BCB40692CCD008900CCE4AF /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40682CCD008900CCE4AF /* BaseClass.swift */; };
+		1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */; };
+		1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */; };
+		2ED74AE09B6C75E8B02C097D /* Pods_SeekAsiaAssesment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE231BF4DBB53E70C8C5DA3 /* Pods_SeekAsiaAssesment.framework */; };
+		60D20FA5C7132AE931C02243 /* Pods_SeekAsiaAssesmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E683BF1384F38F8C233275 /* Pods_SeekAsiaAssesmentTests.framework */; };
+		7C7988A599638A089B7C97A6 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF100E6B3EC24AFE5F59962 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1BCB3FC02CCBA8A300CCE4AF /* PBXContainerItemProxy */ = {
@@ -24,47 +57,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022FA76EB9CDB8BE2E92CBAC /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAsiaAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCB401F2CCCFA4A00CCE4AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BCB40222CCCFA4A00CCE4AF /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		1BCB40232CCCFA4A00CCE4AF /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		1BCB40242CCCFA4A00CCE4AF /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1BCB40252CCCFA4A00CCE4AF /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		1BCB40262CCCFA4A00CCE4AF /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		1BCB40272CCCFA4A00CCE4AF /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		1BCB40282CCCFA4A00CCE4AF /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		1BCB40292CCCFA4A00CCE4AF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1BCB402A2CCCFA4A00CCE4AF /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1BCB402B2CCCFA4A00CCE4AF /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		1BCB402C2CCCFA4A00CCE4AF /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		1BCB402F2CCCFA4A00CCE4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BCB40322CCCFA4A00CCE4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BCB40342CCCFA4A00CCE4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BCB40372CCCFA4A00CCE4AF /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		1BCB40392CCCFA4A00CCE4AF /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		1BCB403B2CCCFA4A00CCE4AF /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		1BCB403D2CCCFA4A00CCE4AF /* AppLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLayoutHelper.swift; sourceTree = "<group>"; };
+		1BCB403F2CCCFA4A00CCE4AF /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		1BCB40412CCCFA4A00CCE4AF /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		1BCB40432CCCFA4A00CCE4AF /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		1BCB40462CCCFA4A00CCE4AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1BCB40482CCCFA4A00CCE4AF /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1BCB404C2CCCFA4A00CCE4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCB40682CCD008900CCE4AF /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		23E683BF1384F38F8C233275 /* Pods_SeekAsiaAssesmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssesmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0157128BA4509E8250532C /* Pods-SeekAsiaAssesmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesmentTests.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesmentTests/Pods-SeekAsiaAssesmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF100E6B3EC24AFE5F59962 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAB8C3A910E45A7EF466BD1 /* Pods-SeekAsiaAssesment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment.release.xcconfig"; sourceTree = "<group>"; };
+		B4EE20191FFB481908D7547A /* Pods-SeekAsiaAssesment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment.debug.xcconfig"; sourceTree = "<group>"; };
+		B84524FFB18BBA05EB805F6A /* Pods-SeekAsiaAssesmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesmentTests.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesmentTests/Pods-SeekAsiaAssesmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		BE32D5AC7A1369AAA0582E8E /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE231BF4DBB53E70C8C5DA3 /* Pods_SeekAsiaAssesment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssesment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		1BCB3FD12CCBA8A300CCE4AF /* Exceptions for "SeekAsiaAssesment" folder in "SeekAsiaAssesment" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 1BCB3FA82CCBA8A100CCE4AF /* SeekAsiaAssesment */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1BCB3FAB2CCBA8A100CCE4AF /* SeekAsiaAssesment */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				1BCB3FD12CCBA8A300CCE4AF /* Exceptions for "SeekAsiaAssesment" folder in "SeekAsiaAssesment" target */,
-			);
-			path = SeekAsiaAssesment;
-			sourceTree = "<group>";
-		};
-		1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SeekAsiaAssesmentTests;
-			sourceTree = "<group>";
-		};
-		1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SeekAsiaAssesmentUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1BCB3FA62CCBA8A100CCE4AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ED74AE09B6C75E8B02C097D /* Pods_SeekAsiaAssesment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D20FA5C7132AE931C02243 /* Pods_SeekAsiaAssesmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7988A599638A089B7C97A6 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,10 +130,12 @@
 		1BCB3FA02CCBA8A100CCE4AF = {
 			isa = PBXGroup;
 			children = (
-				1BCB3FAB2CCBA8A100CCE4AF /* SeekAsiaAssesment */,
+				1BCB404D2CCCFA4A00CCE4AF /* SeekAsiaAssesment */,
 				1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
 				1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
 				1BCB3FAA2CCBA8A100CCE4AF /* Products */,
+				78C1FDDFB054217C4217338E /* Pods */,
+				2A64CFE0A5C33E325CCB343A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +149,238 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SeekAsiaAssesmentTests;
+			sourceTree = "<group>";
+		};
+		1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SeekAsiaAssesmentUITests;
+			sourceTree = "<group>";
+		};
+		1BCB40212CCCFA4A00CCE4AF /* AppLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB401F2CCCFA4A00CCE4AF /* AppDelegate.swift */,
+			);
+			path = AppLifeCycle;
+			sourceTree = "<group>";
+		};
+		1BCB402D2CCCFA4A00CCE4AF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40222CCCFA4A00CCE4AF /* Roboto-Black.ttf */,
+				1BCB40232CCCFA4A00CCE4AF /* Roboto-BlackItalic.ttf */,
+				1BCB40242CCCFA4A00CCE4AF /* Roboto-Bold.ttf */,
+				1BCB40252CCCFA4A00CCE4AF /* Roboto-BoldItalic.ttf */,
+				1BCB40262CCCFA4A00CCE4AF /* Roboto-Italic.ttf */,
+				1BCB40272CCCFA4A00CCE4AF /* Roboto-Light.ttf */,
+				1BCB40282CCCFA4A00CCE4AF /* Roboto-LightItalic.ttf */,
+				1BCB40292CCCFA4A00CCE4AF /* Roboto-Medium.ttf */,
+				1BCB402A2CCCFA4A00CCE4AF /* Roboto-MediumItalic.ttf */,
+				1BCB402B2CCCFA4A00CCE4AF /* Roboto-Regular.ttf */,
+				1BCB402C2CCCFA4A00CCE4AF /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1BCB402E2CCCFA4A00CCE4AF /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB402D2CCCFA4A00CCE4AF /* Fonts */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		1BCB40302CCCFA4A00CCE4AF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB402F2CCCFA4A00CCE4AF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1BCB40312CCCFA4A00CCE4AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1BCB40362CCCFA4A00CCE4AF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40332CCCFA4A00CCE4AF /* LaunchScreen.storyboard */,
+				1BCB40352CCCFA4A00CCE4AF /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1BCB40382CCCFA4A00CCE4AF /* AppStyle */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40372CCCFA4A00CCE4AF /* AppStyle.swift */,
+			);
+			path = AppStyle;
+			sourceTree = "<group>";
+		};
+		1BCB403A2CCCFA4A00CCE4AF /* BaseButton */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40392CCCFA4A00CCE4AF /* BaseButton.swift */,
+			);
+			path = BaseButton;
+			sourceTree = "<group>";
+		};
+		1BCB403C2CCCFA4A00CCE4AF /* KeyChainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB403B2CCCFA4A00CCE4AF /* KeychainManager.swift */,
+			);
+			path = KeyChainWrapper;
+			sourceTree = "<group>";
+		};
+		1BCB403E2CCCFA4A00CCE4AF /* ScallingUtil */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB403D2CCCFA4A00CCE4AF /* AppLayoutHelper.swift */,
+			);
+			path = ScallingUtil;
+			sourceTree = "<group>";
+		};
+		1BCB40402CCCFA4A00CCE4AF /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB403F2CCCFA4A00CCE4AF /* UIColor.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		1BCB40422CCCFA4A00CCE4AF /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40412CCCFA4A00CCE4AF /* UILabel.swift */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		1BCB40442CCCFA4A00CCE4AF /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40432CCCFA4A00CCE4AF /* LoginTextField.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		1BCB40452CCCFA4A00CCE4AF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB406A2CCD0F9400CCE4AF /* Constants */,
+				1BCB40382CCCFA4A00CCE4AF /* AppStyle */,
+				1BCB403A2CCCFA4A00CCE4AF /* BaseButton */,
+				1BCB403C2CCCFA4A00CCE4AF /* KeyChainWrapper */,
+				1BCB403E2CCCFA4A00CCE4AF /* ScallingUtil */,
+				1BCB40402CCCFA4A00CCE4AF /* UIColor */,
+				1BCB40422CCCFA4A00CCE4AF /* UILabel */,
+				1BCB40442CCCFA4A00CCE4AF /* UITextField */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1BCB40472CCCFA4A00CCE4AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40462CCCFA4A00CCE4AF /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1BCB40492CCCFA4A00CCE4AF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40482CCCFA4A00CCE4AF /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		1BCB404A2CCCFA4A00CCE4AF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40472CCCFA4A00CCE4AF /* Login */,
+				1BCB40492CCCFA4A00CCE4AF /* Splash */,
+				1BCB40682CCD008900CCE4AF /* BaseClass.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BCB404B2CCCFA4A00CCE4AF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB406D2CCD124700CCE4AF /* Login */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1BCB404D2CCCFA4A00CCE4AF /* SeekAsiaAssesment */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40212CCCFA4A00CCE4AF /* AppLifeCycle */,
+				1BCB402E2CCCFA4A00CCE4AF /* AppSupport */,
+				1BCB40302CCCFA4A00CCE4AF /* Assets */,
+				1BCB40312CCCFA4A00CCE4AF /* Models */,
+				1BCB40362CCCFA4A00CCE4AF /* UI */,
+				1BCB40452CCCFA4A00CCE4AF /* Utils */,
+				1BCB404A2CCCFA4A00CCE4AF /* ViewControllers */,
+				1BCB404B2CCCFA4A00CCE4AF /* ViewModel */,
+				1BCB404C2CCCFA4A00CCE4AF /* Info.plist */,
+			);
+			path = SeekAsiaAssesment;
+			sourceTree = "<group>";
+		};
+		1BCB406A2CCD0F9400CCE4AF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1BCB406D2CCD124700CCE4AF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		2A64CFE0A5C33E325CCB343A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE231BF4DBB53E70C8C5DA3 /* Pods_SeekAsiaAssesment.framework */,
+				8EF100E6B3EC24AFE5F59962 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework */,
+				23E683BF1384F38F8C233275 /* Pods_SeekAsiaAssesmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C1FDDFB054217C4217338E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE20191FFB481908D7547A /* Pods-SeekAsiaAssesment.debug.xcconfig */,
+				9EAB8C3A910E45A7EF466BD1 /* Pods-SeekAsiaAssesment.release.xcconfig */,
+				BE32D5AC7A1369AAA0582E8E /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig */,
+				022FA76EB9CDB8BE2E92CBAC /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig */,
+				4B0157128BA4509E8250532C /* Pods-SeekAsiaAssesmentTests.debug.xcconfig */,
+				B84524FFB18BBA05EB805F6A /* Pods-SeekAsiaAssesmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,20 +388,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCB3FD22CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesment" */;
 			buildPhases = (
+				16D021AFBD0254E6B4435633 /* [CP] Check Pods Manifest.lock */,
 				1BCB3FA52CCBA8A100CCE4AF /* Sources */,
 				1BCB3FA62CCBA8A100CCE4AF /* Frameworks */,
 				1BCB3FA72CCBA8A100CCE4AF /* Resources */,
+				1F0A828F2917BB4687E0535E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				1BCB3FAB2CCBA8A100CCE4AF /* SeekAsiaAssesment */,
-			);
 			name = SeekAsiaAssesment;
-			packageProductDependencies = (
-			);
 			productName = SeekAsiaAssesment;
 			productReference = 1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +407,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCB3FD72CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentTests" */;
 			buildPhases = (
+				7B096119F69B882DDD4FAAF2 /* [CP] Check Pods Manifest.lock */,
 				1BCB3FBB2CCBA8A300CCE4AF /* Sources */,
 				1BCB3FBC2CCBA8A300CCE4AF /* Frameworks */,
 				1BCB3FBD2CCBA8A300CCE4AF /* Resources */,
@@ -143,12 +417,7 @@
 			dependencies = (
 				1BCB3FC12CCBA8A300CCE4AF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
-			);
 			name = SeekAsiaAssesmentTests;
-			packageProductDependencies = (
-			);
 			productName = SeekAsiaAssesmentTests;
 			productReference = 1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,21 +426,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCB3FDA2CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentUITests" */;
 			buildPhases = (
+				84E8737FFF75654BD3F6740C /* [CP] Check Pods Manifest.lock */,
 				1BCB3FC52CCBA8A300CCE4AF /* Sources */,
 				1BCB3FC62CCBA8A300CCE4AF /* Frameworks */,
 				1BCB3FC72CCBA8A300CCE4AF /* Resources */,
+				474E293BC2E380A9CB1E3A99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				1BCB3FCB2CCBA8A300CCE4AF /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
-			);
 			name = SeekAsiaAssesmentUITests;
-			packageProductDependencies = (
-			);
 			productName = SeekAsiaAssesmentUITests;
 			productReference = 1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -200,6 +466,7 @@
 				};
 			};
 			buildConfigurationList = 1BCB3FA42CCBA8A100CCE4AF /* Build configuration list for PBXProject "SeekAsiaAssesment" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -208,7 +475,6 @@
 			);
 			mainGroup = 1BCB3FA02CCBA8A100CCE4AF;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 1BCB3FAA2CCBA8A100CCE4AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,6 +491,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCB40592CCCFA4A00CCE4AF /* Roboto-Black.ttf in Resources */,
+				1BCB405A2CCCFA4A00CCE4AF /* Roboto-BlackItalic.ttf in Resources */,
+				1BCB405B2CCCFA4A00CCE4AF /* Roboto-Bold.ttf in Resources */,
+				1BCB405C2CCCFA4A00CCE4AF /* Roboto-BoldItalic.ttf in Resources */,
+				1BCB405D2CCCFA4A00CCE4AF /* Roboto-Italic.ttf in Resources */,
+				1BCB405E2CCCFA4A00CCE4AF /* Roboto-Light.ttf in Resources */,
+				1BCB405F2CCCFA4A00CCE4AF /* Roboto-LightItalic.ttf in Resources */,
+				1BCB40602CCCFA4A00CCE4AF /* Roboto-Medium.ttf in Resources */,
+				1BCB40612CCCFA4A00CCE4AF /* Roboto-MediumItalic.ttf in Resources */,
+				1BCB40622CCCFA4A00CCE4AF /* Roboto-Regular.ttf in Resources */,
+				1BCB40632CCCFA4A00CCE4AF /* Roboto-Thin.ttf in Resources */,
+				1BCB40642CCCFA4A00CCE4AF /* Assets.xcassets in Resources */,
+				1BCB40652CCCFA4A00CCE4AF /* LaunchScreen.storyboard in Resources */,
+				1BCB40662CCCFA4A00CCE4AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,11 +524,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16D021AFBD0254E6B4435633 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssesment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F0A828F2917BB4687E0535E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		474E293BC2E380A9CB1E3A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B096119F69B882DDD4FAAF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssesmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E8737FFF75654BD3F6740C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1BCB3FA52CCBA8A100CCE4AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCB404E2CCCFA4A00CCE4AF /* AppDelegate.swift in Sources */,
+				1BCB40502CCCFA4A00CCE4AF /* AppStyle.swift in Sources */,
+				1BCB40512CCCFA4A00CCE4AF /* BaseButton.swift in Sources */,
+				1BCB40522CCCFA4A00CCE4AF /* KeychainManager.swift in Sources */,
+				1BCB40532CCCFA4A00CCE4AF /* AppLayoutHelper.swift in Sources */,
+				1BCB40542CCCFA4A00CCE4AF /* UIColor.swift in Sources */,
+				1BCB40692CCD008900CCE4AF /* BaseClass.swift in Sources */,
+				1BCB40552CCCFA4A00CCE4AF /* UILabel.swift in Sources */,
+				1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */,
+				1BCB40562CCCFA4A00CCE4AF /* LoginTextField.swift in Sources */,
+				1BCB40572CCCFA4A00CCE4AF /* LoginViewController.swift in Sources */,
+				1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */,
+				1BCB40582CCCFA4A00CCE4AF /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,15 +677,36 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		1BCB40332CCCFA4A00CCE4AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BCB40322CCCFA4A00CCE4AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BCB40352CCCFA4A00CCE4AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BCB40342CCCFA4A00CCE4AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		1BCB3FD32CCBA8A300CCE4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4EE20191FFB481908D7547A /* Pods-SeekAsiaAssesment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeekAsiaAssesment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +714,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,12 +730,14 @@
 		};
 		1BCB3FD42CCBA8A300CCE4AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EAB8C3A910E45A7EF466BD1 /* Pods-SeekAsiaAssesment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X56FMGRQ9L;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeekAsiaAssesment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -325,6 +745,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +880,7 @@
 		};
 		1BCB3FD82CCBA8A300CCE4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0157128BA4509E8250532C /* Pods-SeekAsiaAssesmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +900,7 @@
 		};
 		1BCB3FD92CCBA8A300CCE4AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B84524FFB18BBA05EB805F6A /* Pods-SeekAsiaAssesmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -497,6 +920,7 @@
 		};
 		1BCB3FDB2CCBA8A300CCE4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE32D5AC7A1369AAA0582E8E /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -514,6 +938,7 @@
 		};
 		1BCB3FDC2CCBA8A300CCE4AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 022FA76EB9CDB8BE2E92CBAC /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

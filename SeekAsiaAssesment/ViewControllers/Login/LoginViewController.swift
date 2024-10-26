@@ -7,7 +7,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: BaseClass {
     
     @IBOutlet weak var lblSignIn: UILabel! {
         didSet {
@@ -15,22 +15,48 @@ class LoginViewController: UIViewController {
             lblSignIn.setFontColor(.textPrimary)
         }
     }
+    @IBOutlet weak var lblEmailAddress: UILabel! {
+        didSet {
+            lblEmailAddress.setFontStyle(.light, 17)
+            lblEmailAddress.setFontColor(.textPrimary)
+        }
+    }
+    @IBOutlet weak var emailAddressTextField : LoginTextField!
+    @IBOutlet weak var lblPassword: UILabel! {
+        didSet {
+            lblPassword.setFontStyle(.light, 17)
+            lblPassword.setFontColor(.textPrimary)
+        }
+    }
+    @IBOutlet weak var passwordTextField : LoginTextField!
+    @IBOutlet weak var btnLogin: BaseButton!
 
+    lazy var loginViewModel = LoginViewModel()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Action Methods
+    
+    @IBAction func btnLoginPressed(_ sender: UIButton) {
+        self.loginAction()
     }
-    */
+    
+    @IBAction func btnRegisterPressed(_ sender: UIButton) {
+        self.showToast(title: GlobalValidation.comingSoonMessage)
+    }
 
+    // MARK: - Login Method
+
+    func loginAction() {
+        if let email = self.emailAddressTextField.textFieldText,
+           let password = self.passwordTextField.textFieldText,
+           loginViewModel.validateInput(username: email, password: password, viewController: self) {
+        
+            self.showToast(title: "Success")
+        }
+    }
 }

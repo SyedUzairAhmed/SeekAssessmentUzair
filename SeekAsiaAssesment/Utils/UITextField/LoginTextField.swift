@@ -85,8 +85,14 @@ import UIKit
     
     @IBInspectable
     var textFieldText: String? {
-        didSet {
-            self.text = textFieldText
+//        didSet {
+//            self.text = textFieldText
+//        }
+        set {
+            self.text = newValue
+        }
+        get {
+            self.text ?? ""
         }
     }
     

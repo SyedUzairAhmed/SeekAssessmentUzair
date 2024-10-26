@@ -48,18 +48,17 @@ import UIKit
             }
         }
 
-        // MARK: - Callbacks
+//        // MARK: - Callbacks
+//
+//        var callBackAction: (() -> Void)?
 
-        var callBackAction: (() -> Void)?
-
-        // MARK: - Button Action
-
-        @IBAction func btnPressed(_ sender: UIButton) {
-            callBackAction?()
-        }
+//        // MARK: - Button Action
+//
+//        @IBAction func btnPressed(_ sender: UIButton) {
+//            callBackAction?()
+//        }
         
         override func layoutSubviews() {
             super.layoutSubviews()
-            // You can do additional layout configuration here if needed
         }
     }
