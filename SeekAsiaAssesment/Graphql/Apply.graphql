@@ -1,0 +1,11 @@
+//
+//  Apply.graphql
+//  SeekAsiaAssesment
+//
+//  Created by Syed Uzair - Work on 10/27/24.
+//
+
+
+mutation Apply($jobId: String!) {
+  apply(jobId: $jobId)
+}

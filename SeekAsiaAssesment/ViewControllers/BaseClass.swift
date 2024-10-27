@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-import Toaster
+//import Toaster
 
 
 class BaseClass: UIViewController {
@@ -41,7 +41,7 @@ class BaseClass: UIViewController {
     // MARK: - Show Toast
     
     public func showToast(title:String){
-        Toast(text:title, duration: Delay.long).show()
+        self.view.makeToast(title, duration: 2.0, position: .bottom)
     }
 
     

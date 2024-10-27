@@ -14,3 +14,9 @@ struct GlobalValidation{
     static let comingSoonMessage: String = "Coming soon..."
     
 }
+
+struct NetworkingConstants {
+    
+    static let baseURL: String = "http://localhost:3002/"
+    static let errorMessage: String = "Something went wrong. Please try again later."
+}

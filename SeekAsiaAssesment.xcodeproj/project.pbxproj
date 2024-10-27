@@ -34,9 +34,11 @@
 		1BCB40692CCD008900CCE4AF /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40682CCD008900CCE4AF /* BaseClass.swift */; };
 		1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */; };
 		1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */; };
-		2ED74AE09B6C75E8B02C097D /* Pods_SeekAsiaAssesment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE231BF4DBB53E70C8C5DA3 /* Pods_SeekAsiaAssesment.framework */; };
-		60D20FA5C7132AE931C02243 /* Pods_SeekAsiaAssesmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E683BF1384F38F8C233275 /* Pods_SeekAsiaAssesmentTests.framework */; };
-		7C7988A599638A089B7C97A6 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF100E6B3EC24AFE5F59962 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework */; };
+		1BCB40732CCD4A6700CCE4AF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40712CCD4A6700CCE4AF /* Toast.swift */; };
+		1BCB40782CCE21D200CCE4AF /* GetJobs.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40772CCE21D100CCE4AF /* GetJobs.graphql */; };
+		1BCB407A2CCE21D500CCE4AF /* GetJob.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40792CCE21D400CCE4AF /* GetJob.graphql */; };
+		1BCB407C2CCE21D900CCE4AF /* Auth.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB407B2CCE21D800CCE4AF /* Auth.graphql */; };
+		1BCB407E2CCE22DE00CCE4AF /* Apply.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB407D2CCE22D700CCE4AF /* Apply.graphql */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +59,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022FA76EB9CDB8BE2E92CBAC /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAsiaAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,14 +90,11 @@
 		1BCB40682CCD008900CCE4AF /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
 		1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		23E683BF1384F38F8C233275 /* Pods_SeekAsiaAssesmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssesmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B0157128BA4509E8250532C /* Pods-SeekAsiaAssesmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesmentTests.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesmentTests/Pods-SeekAsiaAssesmentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8EF100E6B3EC24AFE5F59962 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EAB8C3A910E45A7EF466BD1 /* Pods-SeekAsiaAssesment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment.release.xcconfig"; sourceTree = "<group>"; };
-		B4EE20191FFB481908D7547A /* Pods-SeekAsiaAssesment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment.debug.xcconfig"; sourceTree = "<group>"; };
-		B84524FFB18BBA05EB805F6A /* Pods-SeekAsiaAssesmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesmentTests.release.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesmentTests/Pods-SeekAsiaAssesmentTests.release.xcconfig"; sourceTree = "<group>"; };
-		BE32D5AC7A1369AAA0582E8E /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEE231BF4DBB53E70C8C5DA3 /* Pods_SeekAsiaAssesment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeekAsiaAssesment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCB40712CCD4A6700CCE4AF /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1BCB40772CCE21D100CCE4AF /* GetJobs.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetJobs.graphql; sourceTree = "<group>"; };
+		1BCB40792CCE21D400CCE4AF /* GetJob.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetJob.graphql; sourceTree = "<group>"; };
+		1BCB407B2CCE21D800CCE4AF /* Auth.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Auth.graphql; sourceTree = "<group>"; };
+		1BCB407D2CCE22D700CCE4AF /* Apply.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Apply.graphql; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +102,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED74AE09B6C75E8B02C097D /* Pods_SeekAsiaAssesment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D20FA5C7132AE931C02243 /* Pods_SeekAsiaAssesmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,7 +116,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C7988A599638A089B7C97A6 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +129,6 @@
 				1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
 				1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
 				1BCB3FAA2CCBA8A100CCE4AF /* Products */,
-				78C1FDDFB054217C4217338E /* Pods */,
-				2A64CFE0A5C33E325CCB343A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -192,6 +185,7 @@
 		1BCB402E2CCCFA4A00CCE4AF /* AppSupport */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB40722CCD4A6700CCE4AF /* Toast */,
 				1BCB402D2CCCFA4A00CCE4AF /* Fonts */,
 			);
 			path = AppSupport;
@@ -329,6 +323,7 @@
 		1BCB404D2CCCFA4A00CCE4AF /* SeekAsiaAssesment */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB40762CCE21C700CCE4AF /* Graphql */,
 				1BCB40212CCCFA4A00CCE4AF /* AppLifeCycle */,
 				1BCB402E2CCCFA4A00CCE4AF /* AppSupport */,
 				1BCB40302CCCFA4A00CCE4AF /* Assets */,
@@ -358,27 +353,23 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		2A64CFE0A5C33E325CCB343A /* Frameworks */ = {
+		1BCB40722CCD4A6700CCE4AF /* Toast */ = {
 			isa = PBXGroup;
 			children = (
-				CEE231BF4DBB53E70C8C5DA3 /* Pods_SeekAsiaAssesment.framework */,
-				8EF100E6B3EC24AFE5F59962 /* Pods_SeekAsiaAssesment_SeekAsiaAssesmentUITests.framework */,
-				23E683BF1384F38F8C233275 /* Pods_SeekAsiaAssesmentTests.framework */,
+				1BCB40712CCD4A6700CCE4AF /* Toast.swift */,
 			);
-			name = Frameworks;
+			path = Toast;
 			sourceTree = "<group>";
 		};
-		78C1FDDFB054217C4217338E /* Pods */ = {
+		1BCB40762CCE21C700CCE4AF /* Graphql */ = {
 			isa = PBXGroup;
 			children = (
-				B4EE20191FFB481908D7547A /* Pods-SeekAsiaAssesment.debug.xcconfig */,
-				9EAB8C3A910E45A7EF466BD1 /* Pods-SeekAsiaAssesment.release.xcconfig */,
-				BE32D5AC7A1369AAA0582E8E /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig */,
-				022FA76EB9CDB8BE2E92CBAC /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig */,
-				4B0157128BA4509E8250532C /* Pods-SeekAsiaAssesmentTests.debug.xcconfig */,
-				B84524FFB18BBA05EB805F6A /* Pods-SeekAsiaAssesmentTests.release.xcconfig */,
+				1BCB407D2CCE22D700CCE4AF /* Apply.graphql */,
+				1BCB407B2CCE21D800CCE4AF /* Auth.graphql */,
+				1BCB40792CCE21D400CCE4AF /* GetJob.graphql */,
+				1BCB40772CCE21D100CCE4AF /* GetJobs.graphql */,
 			);
-			path = Pods;
+			path = Graphql;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,11 +379,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCB3FD22CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesment" */;
 			buildPhases = (
-				16D021AFBD0254E6B4435633 /* [CP] Check Pods Manifest.lock */,
 				1BCB3FA52CCBA8A100CCE4AF /* Sources */,
 				1BCB3FA62CCBA8A100CCE4AF /* Frameworks */,
 				1BCB3FA72CCBA8A100CCE4AF /* Resources */,
-				1F0A828F2917BB4687E0535E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -407,7 +396,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCB3FD72CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentTests" */;
 			buildPhases = (
-				7B096119F69B882DDD4FAAF2 /* [CP] Check Pods Manifest.lock */,
 				1BCB3FBB2CCBA8A300CCE4AF /* Sources */,
 				1BCB3FBC2CCBA8A300CCE4AF /* Frameworks */,
 				1BCB3FBD2CCBA8A300CCE4AF /* Resources */,
@@ -426,11 +414,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1BCB3FDA2CCBA8A300CCE4AF /* Build configuration list for PBXNativeTarget "SeekAsiaAssesmentUITests" */;
 			buildPhases = (
-				84E8737FFF75654BD3F6740C /* [CP] Check Pods Manifest.lock */,
 				1BCB3FC52CCBA8A300CCE4AF /* Sources */,
 				1BCB3FC62CCBA8A300CCE4AF /* Frameworks */,
 				1BCB3FC72CCBA8A300CCE4AF /* Resources */,
-				474E293BC2E380A9CB1E3A99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -475,6 +461,10 @@
 			);
 			mainGroup = 1BCB3FA02CCBA8A100CCE4AF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1BCB40742CCD4E4C00CCE4AF /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				1BCB40752CCD4F2300CCE4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 1BCB3FAA2CCBA8A100CCE4AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -524,109 +514,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		16D021AFBD0254E6B4435633 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssesment-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1F0A828F2917BB4687E0535E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment/Pods-SeekAsiaAssesment-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		474E293BC2E380A9CB1E3A99 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7B096119F69B882DDD4FAAF2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssesmentTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		84E8737FFF75654BD3F6740C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		1BCB3FA52CCBA8A100CCE4AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -634,17 +521,22 @@
 			files = (
 				1BCB404E2CCCFA4A00CCE4AF /* AppDelegate.swift in Sources */,
 				1BCB40502CCCFA4A00CCE4AF /* AppStyle.swift in Sources */,
+				1BCB407C2CCE21D900CCE4AF /* Auth.graphql in Sources */,
 				1BCB40512CCCFA4A00CCE4AF /* BaseButton.swift in Sources */,
 				1BCB40522CCCFA4A00CCE4AF /* KeychainManager.swift in Sources */,
 				1BCB40532CCCFA4A00CCE4AF /* AppLayoutHelper.swift in Sources */,
 				1BCB40542CCCFA4A00CCE4AF /* UIColor.swift in Sources */,
+				1BCB407A2CCE21D500CCE4AF /* GetJob.graphql in Sources */,
+				1BCB40782CCE21D200CCE4AF /* GetJobs.graphql in Sources */,
 				1BCB40692CCD008900CCE4AF /* BaseClass.swift in Sources */,
 				1BCB40552CCCFA4A00CCE4AF /* UILabel.swift in Sources */,
 				1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */,
+				1BCB407E2CCE22DE00CCE4AF /* Apply.graphql in Sources */,
 				1BCB40562CCCFA4A00CCE4AF /* LoginTextField.swift in Sources */,
 				1BCB40572CCCFA4A00CCE4AF /* LoginViewController.swift in Sources */,
 				1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */,
 				1BCB40582CCCFA4A00CCE4AF /* SplashViewController.swift in Sources */,
+				1BCB40732CCD4A6700CCE4AF /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,7 +591,6 @@
 /* Begin XCBuildConfiguration section */
 		1BCB3FD32CCBA8A300CCE4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4EE20191FFB481908D7547A /* Pods-SeekAsiaAssesment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -730,7 +621,6 @@
 		};
 		1BCB3FD42CCBA8A300CCE4AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EAB8C3A910E45A7EF466BD1 /* Pods-SeekAsiaAssesment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -880,7 +770,6 @@
 		};
 		1BCB3FD82CCBA8A300CCE4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B0157128BA4509E8250532C /* Pods-SeekAsiaAssesmentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -900,7 +789,6 @@
 		};
 		1BCB3FD92CCBA8A300CCE4AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B84524FFB18BBA05EB805F6A /* Pods-SeekAsiaAssesmentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -920,7 +808,6 @@
 		};
 		1BCB3FDB2CCBA8A300CCE4AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE32D5AC7A1369AAA0582E8E /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -938,7 +825,6 @@
 		};
 		1BCB3FDC2CCBA8A300CCE4AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 022FA76EB9CDB8BE2E92CBAC /* Pods-SeekAsiaAssesment-SeekAsiaAssesmentUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -994,6 +880,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BCB40742CCD4E4C00CCE4AF /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.2;
+			};
+		};
+		1BCB40752CCD4F2300CCE4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1BCB3FA12CCBA8A100CCE4AF /* Project object */;
 }
