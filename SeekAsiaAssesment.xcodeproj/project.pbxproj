@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0B579C2CCEC33800A5C802 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B579B2CCEC33800A5C802 /* JobDetailViewController.swift */; };
+		1B0B579F2CCED07600A5C802 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B579E2CCED07600A5C802 /* MyProfileViewController.swift */; };
 		1BCB404E2CCCFA4A00CCE4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB401F2CCCFA4A00CCE4AF /* AppDelegate.swift */; };
 		1BCB40502CCCFA4A00CCE4AF /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40372CCCFA4A00CCE4AF /* AppStyle.swift */; };
 		1BCB40512CCCFA4A00CCE4AF /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40392CCCFA4A00CCE4AF /* BaseButton.swift */; };
@@ -46,6 +48,8 @@
 		1BCB40B62CCE865F00CCE4AF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B52CCE865800CCE4AF /* HomeViewModel.swift */; };
 		1BCB40B82CCE8D8800CCE4AF /* JobPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B72CCE8D8100CCE4AF /* JobPostModel.swift */; };
 		1BCB40BA2CCE8F5700CCE4AF /* HomeApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B92CCE8F5200CCE4AF /* HomeApiCall.swift */; };
+		1BCB40BE2CCEAA4100CCE4AF /* JobPostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB40BD2CCEAA4100CCE4AF /* JobPostTableViewCell.xib */; };
+		1BCB40BF2CCEAA4100CCE4AF /* JobPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40BC2CCEAA4100CCE4AF /* JobPostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0B579B2CCEC33800A5C802 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		1B0B579E2CCED07600A5C802 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAsiaAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB3FBF2CCBA8A300CCE4AF /* SeekAsiaAssesmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BCB3FC92CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeekAsiaAssesmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +116,8 @@
 		1BCB40B52CCE865800CCE4AF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1BCB40B72CCE8D8100CCE4AF /* JobPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostModel.swift; sourceTree = "<group>"; };
 		1BCB40B92CCE8F5200CCE4AF /* HomeApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiCall.swift; sourceTree = "<group>"; };
+		1BCB40BC2CCEAA4100CCE4AF /* JobPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostTableViewCell.swift; sourceTree = "<group>"; };
+		1BCB40BD2CCEAA4100CCE4AF /* JobPostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobPostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0B579A2CCEC31700A5C802 /* JobDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1B0B579B2CCEC33800A5C802 /* JobDetailViewController.swift */,
+			);
+			path = JobDetail;
+			sourceTree = "<group>";
+		};
+		1B0B579D2CCED06500A5C802 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				1B0B579E2CCED07600A5C802 /* MyProfileViewController.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
 		1BCB3FA02CCBA8A100CCE4AF = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +229,7 @@
 		1BCB402E2CCCFA4A00CCE4AF /* AppSupport */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB40BB2CCEAA1600CCE4AF /* JobPostCell */,
 				1BCB40722CCD4A6700CCE4AF /* Toast */,
 				1BCB402D2CCCFA4A00CCE4AF /* Fonts */,
 			);
@@ -327,6 +352,8 @@
 		1BCB404A2CCCFA4A00CCE4AF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B0B579D2CCED06500A5C802 /* MyProfile */,
+				1B0B579A2CCEC31700A5C802 /* JobDetail */,
 				1BCB40B12CCE806700CCE4AF /* HomeScreen */,
 				1BCB40472CCCFA4A00CCE4AF /* Login */,
 				1BCB40492CCCFA4A00CCE4AF /* Splash */,
@@ -436,6 +463,15 @@
 				1BCB40B52CCE865800CCE4AF /* HomeViewModel.swift */,
 			);
 			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		1BCB40BB2CCEAA1600CCE4AF /* JobPostCell */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40BC2CCEAA4100CCE4AF /* JobPostTableViewCell.swift */,
+				1BCB40BD2CCEAA4100CCE4AF /* JobPostTableViewCell.xib */,
+			);
+			path = JobPostCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,6 +597,7 @@
 				1BCB40622CCCFA4A00CCE4AF /* Roboto-Regular.ttf in Resources */,
 				1BCB40632CCCFA4A00CCE4AF /* Roboto-Thin.ttf in Resources */,
 				1BCB40642CCCFA4A00CCE4AF /* Assets.xcassets in Resources */,
+				1BCB40BE2CCEAA4100CCE4AF /* JobPostTableViewCell.xib in Resources */,
 				1BCB40652CCCFA4A00CCE4AF /* LaunchScreen.storyboard in Resources */,
 				1BCB40662CCCFA4A00CCE4AF /* Main.storyboard in Resources */,
 			);
@@ -593,17 +630,20 @@
 				1BCB40AE2CCE6C6D00CCE4AF /* UserLoginApiCall.swift in Sources */,
 				1BCB40502CCCFA4A00CCE4AF /* AppStyle.swift in Sources */,
 				1BCB40512CCCFA4A00CCE4AF /* BaseButton.swift in Sources */,
+				1B0B579F2CCED07600A5C802 /* MyProfileViewController.swift in Sources */,
 				1BCB40B32CCE809400CCE4AF /* HomeViewController.swift in Sources */,
 				1BCB40522CCCFA4A00CCE4AF /* KeychainManager.swift in Sources */,
 				1BCB40532CCCFA4A00CCE4AF /* AppLayoutHelper.swift in Sources */,
 				1BCB40542CCCFA4A00CCE4AF /* UIColor.swift in Sources */,
 				1BCB40B02CCE6EBD00CCE4AF /* LoginModel.swift in Sources */,
+				1BCB40BF2CCEAA4100CCE4AF /* JobPostTableViewCell.swift in Sources */,
 				1BCB40BA2CCE8F5700CCE4AF /* HomeApiCall.swift in Sources */,
 				1BCB40B82CCE8D8800CCE4AF /* JobPostModel.swift in Sources */,
 				1BCB40692CCD008900CCE4AF /* BaseClass.swift in Sources */,
 				1BCB40552CCCFA4A00CCE4AF /* UILabel.swift in Sources */,
 				1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */,
 				1BCB40562CCCFA4A00CCE4AF /* LoginTextField.swift in Sources */,
+				1B0B579C2CCEC33800A5C802 /* JobDetailViewController.swift in Sources */,
 				1BCB40572CCCFA4A00CCE4AF /* LoginViewController.swift in Sources */,
 				1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */,
 				1BCB40582CCCFA4A00CCE4AF /* SplashViewController.swift in Sources */,

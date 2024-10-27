@@ -42,10 +42,8 @@ class HomeApiCall: HomeApiCallService {
                     onCompletion(nil,JobsServiceError.unknownError)
                     return
                 }
-                
                 self.totalJobsCount = jobsResponse.total ?? 0
                 onCompletion(self.mapToSeekJobs(from: jobsResponse), nil)
-                
             case .failure(let error):
                 onCompletion(nil, JobsServiceError.unknownError)
             }

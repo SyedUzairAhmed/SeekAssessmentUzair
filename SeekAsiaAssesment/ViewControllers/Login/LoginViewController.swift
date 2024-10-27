@@ -57,9 +57,6 @@ class LoginViewController: BaseClass {
 
     func loginAction() {
         
-        self.emailAddressTextField.textFieldText = "user1"
-        self.passwordTextField.textFieldText = "Seeker1123"
-        
         if let email = self.emailAddressTextField.textFieldText,
            let password = self.passwordTextField.textFieldText,
            loginViewModel.validateInput(username: email, password: password, viewController: self) {

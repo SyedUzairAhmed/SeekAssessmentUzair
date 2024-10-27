@@ -31,6 +31,10 @@ class HomeViewModel {
                 self?.totalItems = self?.homeApiCall.totalJobsCount ?? 0
             }
             
+            DispatchQueue.main.async {
+                completion()
+            }
+            
         })
     }
 }

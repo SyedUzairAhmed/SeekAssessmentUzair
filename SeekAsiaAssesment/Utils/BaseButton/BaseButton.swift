@@ -47,16 +47,6 @@ import UIKit
                 setTitleColor(fontColor, for: .normal)
             }
         }
-
-//        // MARK: - Callbacks
-//
-//        var callBackAction: (() -> Void)?
-
-//        // MARK: - Button Action
-//
-//        @IBAction func btnPressed(_ sender: UIButton) {
-//            callBackAction?()
-//        }
         
         override func layoutSubviews() {
             super.layoutSubviews()

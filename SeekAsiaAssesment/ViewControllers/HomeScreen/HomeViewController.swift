@@ -7,13 +7,13 @@
 
 import UIKit
 
-class HomeViewController: BaseClass, UITableViewDelegate, UITableViewDataSource {
+class HomeViewController: BaseClass {
     
     // MARK: - Outlets
     
     @IBOutlet weak var viewNavBar: UIView! {
         didSet {
-            viewNavBar.backgroundColor = UIColor(hexString: Color.backgroundBrand.rawValue)
+            viewNavBar.backgroundColor = UIColor(hexString: Color.button.rawValue)
         }
     }
     @IBOutlet weak var jobsListTableView: UITableView!
@@ -21,7 +21,7 @@ class HomeViewController: BaseClass, UITableViewDelegate, UITableViewDataSource 
     
     // MARK: - Properties
     private let homeViewModel = HomeViewModel()
-    private let jobsCellIdentifier: String = "aCell"
+    private let jobsCellIdentifier: String = "JobPostTableViewCell"
     private let refreshControl = UIRefreshControl()
     
     private var pagination = PaginationState(
@@ -35,8 +35,7 @@ class HomeViewController: BaseClass, UITableViewDelegate, UITableViewDataSource 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        bindViewModel()
-        fetchJobPosts()
+        fetchInitialPosts()
         
     }
     
@@ -67,35 +66,60 @@ class HomeViewController: BaseClass, UITableViewDelegate, UITableViewDataSource 
         self.refreshControl.addTarget(self, action: #selector(handleRefresh), for: .valueChanged)
         self.jobsListTableView.refreshControl = refreshControl
     }
-    private func bindViewModel() {
-        homeViewModel.delegate = self
-    }
     
     // MARK: - Data Loading
     private func fetchInitialPosts() {
-        homeViewModel.fetchPosts(page: pagination.currentPage)
+        homeViewModel.fetchPosts(page: pagination.currentPage) { [weak self] in
+            self?.jobsListTableView.reloadData()
+        }
     }
     
     @objc private func handleRefresh() {
-        if homeViewModel.posts.count < pagination.totalItems {
-            pagination.currentPage += 1
-            homeViewModel.fetchPosts(page: pagination.currentPage)
+        pagination.currentPage = 1
+        homeViewModel.fetchPosts(page: pagination.currentPage) { [weak self] in
+            self?.refreshControl.endRefreshing()
+            self?.jobsListTableView.reloadData()
+            
         }
-        refreshControl.endRefreshing()
     }
+}
+
+extension HomeViewController: UITableViewDelegate , UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return self.homeViewModel.jobPosts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let aCell = tableView.dequeueReusableCell(withIdentifier: self.jobsCellIdentifier, for: indexPath) as! JobPostTableViewCell
+        aCell.selectionStyle = .none
+        let jobPost = self.homeViewModel.jobPosts[indexPath.row]
+        
+        let salaryText = JobUtilities.formatSalaryRange(
+            min: jobPost.salaryRange?.min,
+            max: jobPost.salaryRange?.max
+        )
+        
+        aCell.configureCell(jobTitle: jobPost.positionTitle ?? "",
+                            description: jobPost.description ?? "",
+                            salary: salaryText,
+                            location: JobUtilities.getLocationString(for: jobPost.location ?? 0),
+                            industry: JobUtilities.getIndustryString(for: jobPost.industry ?? 0),
+                            isApplied: jobPost.haveIApplied ?? false)
+        return aCell
+
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let selectedJobPost = homeViewModel.jobPosts[indexPath.row]
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let jobDetailsVC = storyboard.instantiateViewController(withIdentifier: "JobDetailViewController") as? JobDetailViewController else { return }
+        jobDetailsVC.jobDetail = selectedJobPost
+        navigationController?.pushViewController(jobDetailsVC, animated: true)
+    }
 }
-
-
-
 
 private struct PaginationState {
     var currentPage: Int
