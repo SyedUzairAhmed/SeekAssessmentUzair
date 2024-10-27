@@ -1,0 +1,14 @@
+query GetJob($id: String!) {
+  job(id: $id) {
+    _id
+    positionTitle
+    description
+    salaryRange {
+      min
+      max
+    }
+    location
+    industry
+    haveIApplied
+  }
+}

@@ -35,10 +35,17 @@
 		1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */; };
 		1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */; };
 		1BCB40732CCD4A6700CCE4AF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40712CCD4A6700CCE4AF /* Toast.swift */; };
-		1BCB40782CCE21D200CCE4AF /* GetJobs.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40772CCE21D100CCE4AF /* GetJobs.graphql */; };
-		1BCB407A2CCE21D500CCE4AF /* GetJob.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40792CCE21D400CCE4AF /* GetJob.graphql */; };
-		1BCB407C2CCE21D900CCE4AF /* Auth.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB407B2CCE21D800CCE4AF /* Auth.graphql */; };
-		1BCB407E2CCE22DE00CCE4AF /* Apply.graphql in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB407D2CCE22D700CCE4AF /* Apply.graphql */; };
+		1BCB40812CCE338000CCE4AF /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 1BCB40802CCE338000CCE4AF /* Apollo */; };
+		1BCB40832CCE338900CCE4AF /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1BCB40822CCE338900CCE4AF /* IQKeyboardManagerSwift */; };
+		1BCB408B2CCE408E00CCE4AF /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB408A2CCE407500CCE4AF /* NetworkClient.swift */; };
+		1BCB409E2CCE651300CCE4AF /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 1BCB409C2CCE651300CCE4AF /* schema.graphqls */; };
+		1BCB40AB2CCE671D00CCE4AF /* BaseAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 1BCB40AA2CCE671D00CCE4AF /* BaseAPI */; };
+		1BCB40AE2CCE6C6D00CCE4AF /* UserLoginApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40AD2CCE6C6000CCE4AF /* UserLoginApiCall.swift */; };
+		1BCB40B02CCE6EBD00CCE4AF /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40AF2CCE6EB600CCE4AF /* LoginModel.swift */; };
+		1BCB40B32CCE809400CCE4AF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B22CCE809400CCE4AF /* HomeViewController.swift */; };
+		1BCB40B62CCE865F00CCE4AF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B52CCE865800CCE4AF /* HomeViewModel.swift */; };
+		1BCB40B82CCE8D8800CCE4AF /* JobPostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B72CCE8D8100CCE4AF /* JobPostModel.swift */; };
+		1BCB40BA2CCE8F5700CCE4AF /* HomeApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB40B92CCE8F5200CCE4AF /* HomeApiCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,10 +98,18 @@
 		1BCB406B2CCD0F9D00CCE4AF /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 		1BCB406E2CCD130900CCE4AF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		1BCB40712CCD4A6700CCE4AF /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
-		1BCB40772CCE21D100CCE4AF /* GetJobs.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetJobs.graphql; sourceTree = "<group>"; };
-		1BCB40792CCE21D400CCE4AF /* GetJob.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetJob.graphql; sourceTree = "<group>"; };
-		1BCB407B2CCE21D800CCE4AF /* Auth.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Auth.graphql; sourceTree = "<group>"; };
-		1BCB407D2CCE22D700CCE4AF /* Apply.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Apply.graphql; sourceTree = "<group>"; };
+		1BCB408A2CCE407500CCE4AF /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		1BCB409C2CCE651300CCE4AF /* schema.graphqls */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
+		1BCB409F2CCE653D00CCE4AF /* Auth.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Auth.graphql; sourceTree = "<group>"; };
+		1BCB40A12CCE65DE00CCE4AF /* GetJobs.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetJobs.graphql; sourceTree = "<group>"; };
+		1BCB40A52CCE662A00CCE4AF /* GetJob.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GetJob.graphql; sourceTree = "<group>"; };
+		1BCB40A72CCE663C00CCE4AF /* Apply.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Apply.graphql; sourceTree = "<group>"; };
+		1BCB40AD2CCE6C6000CCE4AF /* UserLoginApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginApiCall.swift; sourceTree = "<group>"; };
+		1BCB40AF2CCE6EB600CCE4AF /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1BCB40B22CCE809400CCE4AF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1BCB40B52CCE865800CCE4AF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		1BCB40B72CCE8D8100CCE4AF /* JobPostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobPostModel.swift; sourceTree = "<group>"; };
+		1BCB40B92CCE8F5200CCE4AF /* HomeApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +117,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCB40AB2CCE671D00CCE4AF /* BaseAPI in Frameworks */,
+				1BCB40812CCE338000CCE4AF /* Apollo in Frameworks */,
+				1BCB40832CCE338900CCE4AF /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,9 +143,11 @@
 		1BCB3FA02CCBA8A100CCE4AF = {
 			isa = PBXGroup;
 			children = (
+				1BCB409D2CCE651300CCE4AF /* graphql */,
 				1BCB404D2CCCFA4A00CCE4AF /* SeekAsiaAssesment */,
 				1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */,
 				1BCB3FCC2CCBA8A300CCE4AF /* SeekAsiaAssesmentUITests */,
+				1BCB407F2CCE337600CCE4AF /* Frameworks */,
 				1BCB3FAA2CCBA8A100CCE4AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -202,6 +222,8 @@
 		1BCB40312CCCFA4A00CCE4AF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB40B72CCE8D8100CCE4AF /* JobPostModel.swift */,
+				1BCB40AF2CCE6EB600CCE4AF /* LoginModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -305,6 +327,7 @@
 		1BCB404A2CCCFA4A00CCE4AF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB40B12CCE806700CCE4AF /* HomeScreen */,
 				1BCB40472CCCFA4A00CCE4AF /* Login */,
 				1BCB40492CCCFA4A00CCE4AF /* Splash */,
 				1BCB40682CCD008900CCE4AF /* BaseClass.swift */,
@@ -315,6 +338,7 @@
 		1BCB404B2CCCFA4A00CCE4AF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1BCB40B42CCE864D00CCE4AF /* HomeScreen */,
 				1BCB406D2CCD124700CCE4AF /* Login */,
 			);
 			path = ViewModel;
@@ -323,7 +347,7 @@
 		1BCB404D2CCCFA4A00CCE4AF /* SeekAsiaAssesment */ = {
 			isa = PBXGroup;
 			children = (
-				1BCB40762CCE21C700CCE4AF /* Graphql */,
+				1BCB40892CCE406B00CCE4AF /* Network */,
 				1BCB40212CCCFA4A00CCE4AF /* AppLifeCycle */,
 				1BCB402E2CCCFA4A00CCE4AF /* AppSupport */,
 				1BCB40302CCCFA4A00CCE4AF /* Assets */,
@@ -361,15 +385,57 @@
 			path = Toast;
 			sourceTree = "<group>";
 		};
-		1BCB40762CCE21C700CCE4AF /* Graphql */ = {
+		1BCB407F2CCE337600CCE4AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BCB407D2CCE22D700CCE4AF /* Apply.graphql */,
-				1BCB407B2CCE21D800CCE4AF /* Auth.graphql */,
-				1BCB40792CCE21D400CCE4AF /* GetJob.graphql */,
-				1BCB40772CCE21D100CCE4AF /* GetJobs.graphql */,
 			);
-			path = Graphql;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BCB40892CCE406B00CCE4AF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40AC2CCE6C4300CCE4AF /* ApiCalls */,
+				1BCB408A2CCE407500CCE4AF /* NetworkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1BCB409D2CCE651300CCE4AF /* graphql */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40A72CCE663C00CCE4AF /* Apply.graphql */,
+				1BCB40A52CCE662A00CCE4AF /* GetJob.graphql */,
+				1BCB40A12CCE65DE00CCE4AF /* GetJobs.graphql */,
+				1BCB409F2CCE653D00CCE4AF /* Auth.graphql */,
+				1BCB409C2CCE651300CCE4AF /* schema.graphqls */,
+			);
+			path = graphql;
+			sourceTree = "<group>";
+		};
+		1BCB40AC2CCE6C4300CCE4AF /* ApiCalls */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40B92CCE8F5200CCE4AF /* HomeApiCall.swift */,
+				1BCB40AD2CCE6C6000CCE4AF /* UserLoginApiCall.swift */,
+			);
+			path = ApiCalls;
+			sourceTree = "<group>";
+		};
+		1BCB40B12CCE806700CCE4AF /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40B22CCE809400CCE4AF /* HomeViewController.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		1BCB40B42CCE864D00CCE4AF /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1BCB40B52CCE865800CCE4AF /* HomeViewModel.swift */,
+			);
+			path = HomeScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +530,7 @@
 			packageReferences = (
 				1BCB40742CCD4E4C00CCE4AF /* XCRemoteSwiftPackageReference "apollo-ios" */,
 				1BCB40752CCD4F2300CCE4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				1BCB40A92CCE670B00CCE4AF /* XCLocalSwiftPackageReference "BaseAPI" */,
 			);
 			productRefGroup = 1BCB3FAA2CCBA8A100CCE4AF /* Products */;
 			projectDirPath = "";
@@ -482,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BCB40592CCCFA4A00CCE4AF /* Roboto-Black.ttf in Resources */,
+				1BCB409E2CCE651300CCE4AF /* schema.graphqls in Resources */,
 				1BCB405A2CCCFA4A00CCE4AF /* Roboto-BlackItalic.ttf in Resources */,
 				1BCB405B2CCCFA4A00CCE4AF /* Roboto-Bold.ttf in Resources */,
 				1BCB405C2CCCFA4A00CCE4AF /* Roboto-BoldItalic.ttf in Resources */,
@@ -519,19 +587,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCB40B62CCE865F00CCE4AF /* HomeViewModel.swift in Sources */,
+				1BCB408B2CCE408E00CCE4AF /* NetworkClient.swift in Sources */,
 				1BCB404E2CCCFA4A00CCE4AF /* AppDelegate.swift in Sources */,
+				1BCB40AE2CCE6C6D00CCE4AF /* UserLoginApiCall.swift in Sources */,
 				1BCB40502CCCFA4A00CCE4AF /* AppStyle.swift in Sources */,
-				1BCB407C2CCE21D900CCE4AF /* Auth.graphql in Sources */,
 				1BCB40512CCCFA4A00CCE4AF /* BaseButton.swift in Sources */,
+				1BCB40B32CCE809400CCE4AF /* HomeViewController.swift in Sources */,
 				1BCB40522CCCFA4A00CCE4AF /* KeychainManager.swift in Sources */,
 				1BCB40532CCCFA4A00CCE4AF /* AppLayoutHelper.swift in Sources */,
 				1BCB40542CCCFA4A00CCE4AF /* UIColor.swift in Sources */,
-				1BCB407A2CCE21D500CCE4AF /* GetJob.graphql in Sources */,
-				1BCB40782CCE21D200CCE4AF /* GetJobs.graphql in Sources */,
+				1BCB40B02CCE6EBD00CCE4AF /* LoginModel.swift in Sources */,
+				1BCB40BA2CCE8F5700CCE4AF /* HomeApiCall.swift in Sources */,
+				1BCB40B82CCE8D8800CCE4AF /* JobPostModel.swift in Sources */,
 				1BCB40692CCD008900CCE4AF /* BaseClass.swift in Sources */,
 				1BCB40552CCCFA4A00CCE4AF /* UILabel.swift in Sources */,
 				1BCB406F2CCD130D00CCE4AF /* LoginViewModel.swift in Sources */,
-				1BCB407E2CCE22DE00CCE4AF /* Apply.graphql in Sources */,
 				1BCB40562CCCFA4A00CCE4AF /* LoginTextField.swift in Sources */,
 				1BCB40572CCCFA4A00CCE4AF /* LoginViewController.swift in Sources */,
 				1BCB406C2CCD0FA100CCE4AF /* GlobalConstants.swift in Sources */,
@@ -881,6 +952,13 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		1BCB40A92CCE670B00CCE4AF /* XCLocalSwiftPackageReference "BaseAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = BaseAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		1BCB40742CCD4E4C00CCE4AF /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -899,6 +977,24 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BCB40802CCE338000CCE4AF /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BCB40742CCD4E4C00CCE4AF /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		1BCB40822CCE338900CCE4AF /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BCB40752CCD4F2300CCE4AF /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		1BCB40AA2CCE671D00CCE4AF /* BaseAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BCB40A92CCE670B00CCE4AF /* XCLocalSwiftPackageReference "BaseAPI" */;
+			productName = BaseAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1BCB3FA12CCBA8A100CCE4AF /* Project object */;
 }

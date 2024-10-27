@@ -20,3 +20,9 @@ struct NetworkingConstants {
     static let baseURL: String = "http://localhost:3002/"
     static let errorMessage: String = "Something went wrong. Please try again later."
 }
+
+struct KeychainConstants {
+    
+    static let keychainService: String = "User_Auth"
+    static let keychainAccount: String = "User_Account"
+}

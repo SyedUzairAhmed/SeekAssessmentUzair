@@ -1,0 +1,21 @@
+query GetJobs($limit: Int, $page: Int) {
+  jobs(limit: $limit, page: $page) {
+    page
+    size
+    hasNext
+    total
+    jobs {
+      _id
+      positionTitle
+      description
+      salaryRange {
+        min
+        max
+      }
+      location
+      industry
+      haveIApplied
+    }
+  }
+}
+
