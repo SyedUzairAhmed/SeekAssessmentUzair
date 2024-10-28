@@ -18,7 +18,7 @@ class SplashViewController: UIViewController {
         }
         return false
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         navigateToScreen()

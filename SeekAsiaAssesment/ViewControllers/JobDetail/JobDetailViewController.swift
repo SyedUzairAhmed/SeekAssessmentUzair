@@ -77,13 +77,13 @@ class JobDetailViewController: BaseClass {
             lblIndustry.setFontColor(.textPrimary)
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
     }
     
-
+    
     // MARK: - Action Methods
     
     @IBAction func backToHomeScreen() {
@@ -112,5 +112,5 @@ class JobDetailViewController: BaseClass {
         }
         
     }
-
+    
 }

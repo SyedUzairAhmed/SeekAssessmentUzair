@@ -63,20 +63,20 @@ class MyProfileViewController: BaseClass {
             lblResume.setFontColor(.textPrimary)
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
-
+        
     }
     
     // MARK: - Util Methods
     
     func setupUI() {
         self.lblFullName.text = "User1"
-        self.lblCurrentCompany.text = "Company1"
+        self.lblCurrentCompany.text = "Apple Inc"
         self.lblTotalExperience.text = "10 Years"
-        self.lblResume.text = "Resume1"
+        self.lblResume.text = "iOS Mobile App Engineer.pdf"
     }
     
     func logout() {
@@ -97,5 +97,5 @@ class MyProfileViewController: BaseClass {
     @IBAction func btnLogoutPressed(_ sender: UIButton) {
         self.logout()
     }
-
+    
 }

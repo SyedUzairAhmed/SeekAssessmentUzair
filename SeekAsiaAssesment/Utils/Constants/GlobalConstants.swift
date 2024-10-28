@@ -51,7 +51,7 @@ struct JobUtilities {
         ]
         return locations[locationCode] ?? "No Location"
     }
-
+    
     static func getIndustryString(for industryCode: Int) -> String {
         let industries = [
             0: "Technology",

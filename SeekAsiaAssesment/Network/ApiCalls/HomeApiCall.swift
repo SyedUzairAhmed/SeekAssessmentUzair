@@ -15,7 +15,7 @@ protocol HomeApiCallService {
 enum JobsServiceError: Error, LocalizedError {
     case dataNotFound
     case unknownError
-
+    
     var errorDescription: String? {
         switch self {
         case .dataNotFound:
@@ -30,11 +30,11 @@ enum JobsServiceError: Error, LocalizedError {
 class HomeApiCall: HomeApiCallService {
     private var jobList: [JobPostModel] = []
     var totalJobsCount: Int = 0
-
+    
     func fetchJobs(limit: Int, page: Int, onCompletion: @escaping NetworkServiceCompletion<[JobPostModel]>) {
         let limitParam = GraphQLNullable<Int>(integerLiteral: limit)
         let pageParam = GraphQLNullable<Int>(integerLiteral: page)
-
+        
         Network.shared.apollo.fetch(query: GetJobsQuery(limit: limitParam, page: pageParam)) { result in
             switch result {
             case .success(let graphQLResult):
@@ -49,10 +49,10 @@ class HomeApiCall: HomeApiCallService {
             }
         }
     }
-
+    
     private func mapToSeekJobs(from jobsData: GetJobsQuery.Data.Jobs) -> [JobPostModel] {
         var mappedJobs: [JobPostModel] = []
-
+        
         jobsData.jobs?.forEach { job in
             let salaryDetails = SalaryRange(
                 max: job?.salaryRange?.max ?? 0,

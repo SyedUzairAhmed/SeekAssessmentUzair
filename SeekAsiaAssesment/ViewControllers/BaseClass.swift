@@ -43,6 +43,6 @@ class BaseClass: UIViewController {
     public func showToast(title:String){
         self.view.makeToast(title, duration: 2.0, position: .bottom)
     }
-
+    
     
 }

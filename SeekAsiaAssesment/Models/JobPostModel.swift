@@ -15,7 +15,7 @@ struct JobPostModel: Codable {
     let industry, location: Int?
     let positionTitle: String?
     let salaryRange: SalaryRange?
-
+    
     enum CodingKeys: String, CodingKey {
         case id = "_id"
         case description, haveIApplied, industry, location, positionTitle, salaryRange

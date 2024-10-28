@@ -15,7 +15,7 @@ protocol LoginApiService {
 class UserLoginApiCall: LoginApiService {
     func login(username: String, password: String, onCompletion: @escaping NetworkServiceCompletion<LoginModel>) {
         let mutation = AuthMutation(username: username, password: password)
-
+        
         Network.shared.apollo.perform(mutation: mutation) { result in
             switch result {
             case .success(let graphQLResult):

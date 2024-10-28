@@ -32,7 +32,7 @@ class LoginViewController: BaseClass {
     }
     @IBOutlet weak var passwordTextField : LoginTextField!
     @IBOutlet weak var btnLogin: BaseButton!
-
+    
     // MARK: - Properties
     
     lazy var loginViewModel = LoginViewModel()
@@ -52,30 +52,30 @@ class LoginViewController: BaseClass {
     @IBAction func btnRegisterPressed(_ sender: UIButton) {
         self.showToast(title: GlobalValidation.comingSoonMessage)
     }
-
+    
     // MARK: - Login Method
-
+    
     func loginAction() {
         
         if let email = self.emailAddressTextField.textFieldText,
            let password = self.passwordTextField.textFieldText,
            loginViewModel.validateInput(username: email, password: password, viewController: self) {
-        
+            
             login(emailAddress: email, password: password)
         }
     }
     
     private func login(emailAddress: String, password: String) {
         loginViewModel.login(emailAddress: emailAddress, password: password) { [weak self] in
-                DispatchQueue.main.async {
-                    if let errorMessage = self?.loginViewModel.errorMessage {
-                        self?.showToast(title: errorMessage)
-                    } else {
-                        self?.navigateToMainScreen()
-                    }
+            DispatchQueue.main.async {
+                if let errorMessage = self?.loginViewModel.errorMessage {
+                    self?.showToast(title: errorMessage)
+                } else {
+                    self?.navigateToMainScreen()
                 }
             }
         }
+    }
     
     // MARK: - Util Method
     
@@ -84,5 +84,5 @@ class LoginViewController: BaseClass {
         let vc = sb.instantiateViewController(withIdentifier: "MainScreenTabBarViewController")
         self.navigationController?.pushViewController(vc, animated: true)
     }
-
+    
 }

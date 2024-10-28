@@ -107,7 +107,7 @@ extension HomeViewController: UITableViewDelegate , UITableViewDataSource {
                             industry: JobUtilities.getIndustryString(for: jobPost.industry ?? 0),
                             isApplied: jobPost.haveIApplied ?? false)
         return aCell
-
+        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
