@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B0661622CCEF19E002F388E /* UserLoginApiCallTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0661612CCEF19E002F388E /* UserLoginApiCallTest.swift */; };
+		1B0661662CCF93A2002F388E /* HomeApiCallTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0661652CCF93A2002F388E /* HomeApiCallTest.swift */; };
 		1B0B579C2CCEC33800A5C802 /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B579B2CCEC33800A5C802 /* JobDetailViewController.swift */; };
 		1B0B579F2CCED07600A5C802 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0B579E2CCED07600A5C802 /* MyProfileViewController.swift */; };
 		1BCB404E2CCCFA4A00CCE4AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCB401F2CCCFA4A00CCE4AF /* AppDelegate.swift */; };
@@ -70,6 +72,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0661602CCEF19E002F388E /* SeekAsiaAssesmentTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SeekAsiaAssesmentTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B0661612CCEF19E002F388E /* UserLoginApiCallTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginApiCallTest.swift; sourceTree = "<group>"; };
+		1B0661652CCF93A2002F388E /* HomeApiCallTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeApiCallTest.swift; sourceTree = "<group>"; };
 		1B0B579B2CCEC33800A5C802 /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
 		1B0B579E2CCED07600A5C802 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		1BCB3FA92CCBA8A100CCE4AF /* SeekAsiaAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeekAsiaAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +153,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B0661642CCF9374002F388E /* HomeJobList */ = {
+			isa = PBXGroup;
+			children = (
+				1B0661652CCF93A2002F388E /* HomeApiCallTest.swift */,
+			);
+			path = HomeJobList;
+			sourceTree = "<group>";
+		};
 		1B0B579A2CCEC31700A5C802 /* JobDetail */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +175,15 @@
 				1B0B579E2CCED07600A5C802 /* MyProfileViewController.swift */,
 			);
 			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		1B0B57A02CCEDF8C00A5C802 /* LoginTest */ = {
+			isa = PBXGroup;
+			children = (
+				1B0661612CCEF19E002F388E /* UserLoginApiCallTest.swift */,
+				1B0661602CCEF19E002F388E /* SeekAsiaAssesmentTests-Bridging-Header.h */,
+			);
+			path = LoginTest;
 			sourceTree = "<group>";
 		};
 		1BCB3FA02CCBA8A100CCE4AF = {
@@ -189,6 +211,8 @@
 		1BCB3FC22CCBA8A300CCE4AF /* SeekAsiaAssesmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				1B0661642CCF9374002F388E /* HomeJobList */,
+				1B0B57A02CCEDF8C00A5C802 /* LoginTest */,
 			);
 			path = SeekAsiaAssesmentTests;
 			sourceTree = "<group>";
@@ -545,6 +569,7 @@
 					};
 					1BCB3FBE2CCBA8A300CCE4AF = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 						TestTargetID = 1BCB3FA82CCBA8A100CCE4AF;
 					};
 					1BCB3FC82CCBA8A300CCE4AF = {
@@ -655,6 +680,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B0661622CCEF19E002F388E /* UserLoginApiCallTest.swift in Sources */,
+				1B0661662CCF93A2002F388E /* HomeApiCallTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -883,6 +910,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X56FMGRQ9L;
@@ -892,6 +920,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SeekAsiaAssesmentTests/LoginTest/SeekAsiaAssesmentTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekAsiaAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeekAsiaAssesment";
@@ -902,6 +932,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X56FMGRQ9L;
@@ -911,6 +942,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.buk.SeekAsiaAssesmentTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SeekAsiaAssesmentTests/LoginTest/SeekAsiaAssesmentTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeekAsiaAssesment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeekAsiaAssesment";
